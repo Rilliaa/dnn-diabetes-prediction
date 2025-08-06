@@ -85,20 +85,18 @@ To assess cumulative impact, the following combinations were tested:
 
 ### 🔹 Stage 5: Final Evaluation & Interpretation
 - Evaluate all models using standard classification metrics:
-  - Accuracy
   - Precision
   - Recall
   - F1-Score
   - ROC-AUC
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Libraries Used
 
 - Python (Google Colab)
 - Scikit-learn
 - TensorFlow / Keras
-- Imbalanced-learn (SMOTE)
-- SHAP
+- Imbalanced-learn 
 - Matplotlib & Seaborn
 
 ---
