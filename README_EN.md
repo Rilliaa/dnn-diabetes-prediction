@@ -1,5 +1,9 @@
 # 🧠 Optimizing Deep Neural Network for Diabetes Status Prediction
 
+![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
+![Colab](https://img.shields.io/badge/Google%20Colab-Compatible-orange)
+![Status](https://img.shields.io/badge/Thesis-Final-brightgreen)
+
 This project is my undergraduate thesis which focuses on optimizing Deep Learning models for predicting diabetes status (Normal, Pre-diabetes, Diabetes) based on health indicator data. The main objective is to improve model performance using various optimization techniques including feature selection, dimensionality reduction, data balancing, and attention mechanisms.
 
 ---
@@ -89,6 +93,7 @@ To assess cumulative impact, the following combinations were tested:
   - Recall
   - F1-Score
   - ROC-AUC
+
 ---
 
 ## 🛠️ Libraries Used
@@ -100,6 +105,7 @@ To assess cumulative impact, the following combinations were tested:
 - Matplotlib & Seaborn
 
 ---
+
 ## 📌 Key Results
 
 This research aimed to develop a Deep Neural Network (DNN) model optimized using a combination of feature selection (Kendall’s Correlation Coefficient), dimensionality reduction (Autoencoders), data balancing (SMOTE), and attention mechanisms (Self-Attention), in order to improve multiclass classification of diabetes status (Normal, Pre-Diabetes, Diabetes).
@@ -124,4 +130,6 @@ The key findings are as follows:
    - **SMOTE** consistently boosted Recall by allowing the model to better understand minority class patterns, although it risked reducing Precision.  
    - **Autoencoders**, in this context, were less effective—potentially due to the loss of critical information during encoding and less representative latent space for classification tasks.
 
+---
 
+📄 _This repository reflects the culmination of my undergraduate thesis research at Universitas Muhammadiyah Riau._
