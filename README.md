@@ -1,4 +1,4 @@
-# [EN]
+### [EN]
 # 🧠 Optimizing Deep Neural Network for Diabetes Status Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
@@ -136,7 +136,7 @@ The key findings are as follows:
 📄 _This repository reflects the culmination of my undergraduate thesis research at Universitas Muhammadiyah Riau._
 ---
 
-# [ID]
+### [ID]
 # 🧠 Optimasi Deep Neural Network untuk Prediksi Status Diabetes
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
