@@ -1,4 +1,3 @@
-### [EN]
 # 🧠 Optimizing Deep Neural Network for Diabetes Status Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
