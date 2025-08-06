@@ -100,4 +100,28 @@ To assess cumulative impact, the following combinations were tested:
 - Matplotlib & Seaborn
 
 ---
+## 📌 Key Results
+
+This research aimed to develop a Deep Neural Network (DNN) model optimized using a combination of feature selection (Kendall’s Correlation Coefficient), dimensionality reduction (Autoencoders), data balancing (SMOTE), and attention mechanisms (Self-Attention), in order to improve multiclass classification of diabetes status (Normal, Pre-Diabetes, Diabetes).
+
+The key findings are as follows:
+
+1. **Baseline Performance**  
+   The default DNN model without any optimization achieved an F1-Score of **0.4162**, serving as the reference point for further comparison.
+
+2. **Individual Optimization Techniques**  
+   - **SMOTE**: Significantly improved **Recall** (up to **0.4912**) but caused a drop in **Precision**, indicating a trade-off in learning from minority classes.  
+   - **Self-Attention**: Achieved the highest **ROC-AUC score** (**0.7863**), enhancing class separability, though with limited impact on F1-Score.  
+   - **Autoencoders**: Slightly improved **Precision**, but decreased performance in other metrics, suggesting that the latent features were suboptimal for classification.  
+   - **KCC Feature Selection**: Improved model efficiency and stability while avoiding overfitting, helping the model to focus on the most relevant features.
+
+3. **Combined Optimization Techniques**  
+   - The best **quantitative performance** was achieved by combining **KCC + SMOTE**, which resulted in the highest **F1-Score of 0.4425**, outperforming the baseline in all major metrics.
+   - Although the combination **KCC + SMOTE + Self-Attention** achieved the highest **average performance** (**0.5235**), the **KCC + SMOTE** model was selected as the **best model** due to its balance between performance, simplicity, and computational efficiency.
+
+4. **Interpretability Insights**  
+   - **KCC** effectively highlighted features most correlated with diabetes status, enabling more focused learning by the DNN.  
+   - **SMOTE** consistently boosted Recall by allowing the model to better understand minority class patterns, although it risked reducing Precision.  
+   - **Autoencoders**, in this context, were less effective—potentially due to the loss of critical information during encoding and less representative latent space for classification tasks.
+
 
