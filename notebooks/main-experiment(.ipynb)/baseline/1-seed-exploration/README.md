@@ -2,7 +2,7 @@
 
 This project focuses on seed data exploration using a structured deep neural network (DNN) architecture, as illustrated in the `suggested_dnn-arch_pattern.png` diagram.
 
-![Suggested DNN Architecture](../suggested_dnn-arch_pattern.png)
+![Suggested DNN Architecture](../suggested_dnn-arch_pattern)
 
 ## 🧠 Model Architecture
 
