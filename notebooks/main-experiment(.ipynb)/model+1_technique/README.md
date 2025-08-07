@@ -1,4 +1,4 @@
-# [EN]
+[EN]
 
 This folder contains experimental implementations where the baseline DNN model is **combined with one additional technique** at a time. The goal is to observe how each method contributes to improving model performance.
 
