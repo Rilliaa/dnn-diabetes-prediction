@@ -2,7 +2,7 @@
 
 ## 🧩 Baseline Experiment – Seed and Architecture Exploration
 
-This repository contains the **baseline experiment** that serves as the foundation for selecting the optimal deep neural network (DNN) configuration for seed classification tasks.
+This step contains the **baseline experiment** that serves as the foundation for selecting the optimal deep neural network (DNN) configuration for seed classification tasks.
 
 ## 🧪 Purpose
 
@@ -35,7 +35,7 @@ By separating the influence of randomness (seed) and structural design (architec
 
 ## 🧩 Eksperimen Baseline – Eksplorasi Seed dan Arsitektur
 
-Repositori ini memuat **eksperimen baseline** yang berfungsi sebagai fondasi awal dalam proses pemilihan konfigurasi jaringan saraf tiruan (DNN) yang optimal untuk tugas klasifikasi benih.
+Langkah ini memuat **eksperimen baseline** yang berfungsi sebagai fondasi awal dalam proses pemilihan konfigurasi jaringan saraf tiruan (DNN) yang optimal untuk tugas klasifikasi benih.
 
 ## 🧪 Tujuan
 
