@@ -6,7 +6,6 @@ This folder contains the processed datasets resulting from the experimental comb
 
 ### The datasets are organized into three categories:
 - **Autoencoders**: Datasets with reduced dimensionality using autoencoders.
-- **SMOTE**: Datasets with balanced class distribution using Synthetic Minority Over-sampling Technique (SMOTE).
 - **KCC + Autoencoders**: Datasets processed with feature selection using Kendall’s Correlation Coefficient (KCC) followed by dimensionality reduction using autoencoders.
 
 Each subfolder represents a specific experiment path and supports the training and evaluation of a distinct model variant.
@@ -20,7 +19,6 @@ Folder ini berisi output dataset dari hasil eksperimen kombinasi teknik optimasi
 
 ### Dataset dikategorikan menjadi tiga jenis:
 - **Autoencoders**: Dataset hasil reduksi dimensi menggunakan autoencoders.
-- **SMOTE**: Dataset hasil penyeimbangan data menggunakan Synthetic Minority Over-sampling Technique (SMOTE).
 - **KCC + Autoencoders**: Dataset hasil seleksi fitur menggunakan Kendall’s Correlation Coefficient (KCC), kemudian direduksi dimensinya menggunakan autoencoders.
 
 Setiap folder mencerminkan satu jalur eksperimen dan mendukung proses pelatihan serta evaluasi model yang berbeda.
