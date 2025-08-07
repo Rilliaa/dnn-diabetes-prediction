@@ -1,4 +1,6 @@
-# 🧪 Deep Neural Network (DNN) Architecture Exploration
+# [EN]
+
+## 🧪 Deep Neural Network (DNN) Architecture Exploration
 
 This project focuses on exploring various deep neural network (DNN) architectures for seed classification, based on relevant previous studies as the foundation for architectural design decisions.
 
@@ -45,6 +47,7 @@ This architectural exploration aims to:
 - Recommend an optimal DNN architecture for seed classification tasks.
 
 ---
+
 # [ID]
 
 ## 🧪 Eksplorasi Arsitektur Jaringan Syaraf Tiruan (DNN)
