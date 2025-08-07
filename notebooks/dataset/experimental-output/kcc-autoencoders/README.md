@@ -1,7 +1,7 @@
 
 # 🧠 KCC-Based Feature Selection – Autoencoder Outputs
 
-## 🌐 [EN] – Description
+## 🌐 [EN] 
 
 This folder contains **9 processed datasets**, each representing the output of an autoencoder trained on features selected using **Kendall’s Correlation Coefficient (KCC)**. This experiment applies a statistical filter method to reduce feature redundancy by analyzing pairwise correlations using Kendall's Tau.
 
@@ -27,7 +27,7 @@ Each model is symmetrical and follows a compression-reconstruction pattern. The 
 
 ---
 
-## 🇮🇩 [ID] – Deskripsi
+## 🇮🇩 [ID]
 
 Folder ini berisi **9 dataset hasil praproses**, yang masing-masing merupakan keluaran dari autoencoder yang dilatih menggunakan fitur-fitur yang telah dipilih dengan metode **Kendall’s Correlation Coefficient (KCC)**. Eksperimen ini menggunakan pendekatan statistik untuk menyaring fitur dengan cara mengukur korelasi antar fitur berdasarkan nilai Tau Kendall.
 
