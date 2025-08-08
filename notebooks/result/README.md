@@ -18,11 +18,11 @@ This folder contains the **final evaluation results** of all experimental models
 | 8  | DNN + AE + SA                    | 0.4763    | 0.3702 | 0.3738   | 0.7640  | 0.4992 | Based on dataset from AE-B1        | 1           |
 | 9  | DNN + AE + SMOTE                 | 0.4284    | 0.4804 | 0.3986   | 0.7339  | 0.5126 | Based on dataset from AE-B1        | 1           |
 | 10 | DNN + SA + SMOTE                 | 0.4294    | 0.4892 | 0.4126   | 0.7172  | 0.5121 | -                                  | 1           |
-| 11 | KCC + AE + SA                    | 0.4731    | 0.3722 | 0.3769   | 0.7572  | 0.4949 | Based on dataset from KCCAEC2_S1   | 1           |
-| 12 | KCC + AE + SMOTE                 | 0.4337    | 0.4831 | 0.4058   | 0.7448  | 0.5169 | Based on dataset from KCCAEC2_S1   | 1           |
+| 11 | KCC + AE + SA                    | 0.4731    | 0.3722 | 0.3769   | 0.7572  | 0.4949 | Based on dataset from KCCAEC2  | 1           |
+| 12 | KCC + AE + SMOTE                 | 0.4337    | 0.4831 | 0.4058   | 0.7448  | 0.5169 | Based on dataset from KCCAEC2  | 1           |
 | 13 | KCC + SA + SMOTE                 | 0.4392    | 0.4835 | 0.4413   | 0.7433  | 0.5235 | -                                  | 1           |
 | 14 | AE + SA + SMOTE                  | 0.4360    | 0.4430 | 0.4067   | 0.7453  | 0.5157 | Based on dataset from AE-B1        | 1           |
-| 15 | DNN + AE + SMOTE + SA + KCC      | 0.4380    | 0.4341 | 0.4067   | 0.7531  | 0.5191 | Based on dataset from KCCAEC2_S1   | 1           |
+| 15 | DNN + AE + SMOTE + SA + KCC      | 0.4380    | 0.4341 | 0.4067   | 0.7531  | 0.5191 | Based on dataset from KCCAEC2  | 1           |
 
 ---
 
@@ -49,6 +49,6 @@ Folder ini berisi hasil evaluasi keseluruhan konfigurasi eksperimen yang telah d
 | 12 | KCC + AE + SMOTE          | 0.4337    | 0.4831 | 0.4058   | 0.7448  | 0.5169 | Menggunakan Dataset KCCAEC2            | 1           |
 | 13 | KCC + SA + SMOTE          | 0.4392    | 0.4835 | 0.4413   | 0.7433  | 0.5235 | -                                  | 1           |
 | 14 | AE + SA + SMOTE           | 0.4360    | 0.4430 | 0.4067   | 0.7453  | 0.5157 | Menggunakan Dataset AE-B1               | 1           |
-| 15 | DNN + AE + SMOTE + SA + KCC | 0.4380 | 0.4341 | 0.4067   | 0.7531  | 0.5191 | Menggunakan Dataset KCCAEC2_S1            | 1           |
+| 15 | DNN + AE + SMOTE + SA + KCC | 0.4380 | 0.4341 | 0.4067   | 0.7531  | 0.5191 | Menggunakan Dataset KCCAEC2           | 1           |
 
 ---
