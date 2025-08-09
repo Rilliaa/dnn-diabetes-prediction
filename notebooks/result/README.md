@@ -25,7 +25,6 @@ This folder contains the **final evaluation results** of all experimental models
 | 16  | DNN + KCC + AE + SMOTE + SA         | 0.4380    | 0.4843  | 0.4067   | 0.7473  | 0.5191    | Dataset from KCCAEC2_S1                   | 1           |
 
 |                                            Summary                                          |
-|---------------------------------------------------------------------------------------------|
 | Metric                     | Precision | Recall  | F1-Score | ROC-AUC | Average (4 Metrics) |
 |----------------------------|-----------|---------|----------|---------|---------------------|
 | Average Across Models      | 0.4517    | 0.4346  | 0.4042   | 0.7532  | 0.5109              |
@@ -60,7 +59,6 @@ Folder ini berisi hasil evaluasi keseluruhan konfigurasi eksperimen yang telah d
 | 16  | DNN + KCC + AE + SMOTE + SA         | 0.4380    | 0.4843  | 0.4067   | 0.7473  | 0.5191    | Dataset dari KCCAEC2_S1           | 1           |
 
 |                                         Kesimpulan                                          |
-|---------------------------------------------------------------------------------------------|
 | Metril                     | Precision | Recall  | F1-Score | ROC-AUC | Average (4 Metrics) |
 |----------------------------|-----------|---------|----------|---------|---------------------|
 | Rata Rata seluruh Model    | 0.4517    | 0.4346  | 0.4042   | 0.7532  | 0.5109              |
