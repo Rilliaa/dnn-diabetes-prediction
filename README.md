@@ -126,9 +126,16 @@ The key findings are as follows:
    - Although the combination **KCC + SMOTE + Self-Attention** achieved the highest **average performance** (**0.5235**), the **KCC + SMOTE** model was selected as the **best model** due to its balance between performance, simplicity, and computational efficiency.
 
 4. **Interpretability Insights**  
-   - **KCC** effectively highlighted features most correlated with diabetes status, enabling more focused learning by the DNN.  
+   - **KCC & Self-Attention** effectively highlighted features most correlated with diabetes status, enabling more focused learning by the DNN.  
    - **SMOTE** consistently boosted Recall by allowing the model to better understand minority class patterns, although it risked reducing Precision.  
    - **Autoencoders**, in this context, were less effective—potentially due to the loss of critical information during encoding and less representative latent space for classification tasks.
+
+5. **Achievement of the Second Research Objective**  
+   The second research objective was to assess the ability of the optimized DNN model to classify diabetes status into three classes. The best model (DNN + KCC + SMOTE) achieved an **overall accuracy of 74.59%**, **macro F1-score of 0.4425**, and **macro ROC-AUC of 0.7332**.  
+
+   These results highlight that, although the performance for the Pre-Diabetes class remains relatively low, the proposed optimization approach successfully enhanced the model’s ability to recognize minority classes compared to the baseline.  
+
+   ![Confusion Matrix – Best Model](./result-best-model/confusion_matrix_best-model.png)
 
 ---
 
@@ -263,9 +270,16 @@ Temuan utama sebagai berikut:
    - Meskipun kombinasi **KCC + SMOTE + Self-Attention** menghasilkan **rata-rata performa tertinggi** (**0.5235**), model **KCC + SMOTE** dipilih sebagai **model terbaik** karena keseimbangan performa, kesederhanaan, dan efisiensi komputasi.
 
 4. **Insight Interpretabilitas**  
-   - **KCC** secara efektif mengidentifikasi fitur yang paling berkorelasi dengan status diabetes, membantu pembelajaran yang lebih fokus.  
+   - **KCC & Self-Attention** secara efektif mengidentifikasi fitur yang paling berkorelasi dengan status diabetes, membantu pembelajaran yang lebih fokus.  
    - **SMOTE** secara konsisten meningkatkan Recall dengan memungkinkan model memahami pola kelas minoritas, meskipun Precision cenderung turun.  
    - **Autoencoder**, dalam konteks ini, kurang efektif—kemungkinan karena hilangnya informasi penting saat encoding dan kurang representatif untuk klasifikasi.
+
+5. **Pencapaian Tujuan Penelitian Kedua**  
+   Tujuan penelitian kedua adalah mengevaluasi kemampuan model DNN hasil optimasi dalam mengklasifikasikan status diabetes ke dalam tiga kelas. Model terbaik (DNN + KCC + SMOTE) mencapai **akurasi keseluruhan sebesar 74.59%**, **F1-score makro 0.4425**, dan **ROC-AUC makro 0.7332**.  
+
+   Hasil ini menegaskan bahwa meskipun performa untuk kelas **Pra-Diabetes** masih rendah, pendekatan yang diusulkan mampu meningkatkan kemampuan model dalam mengenali kelas minoritas dibandingkan baseline.  
+
+   ![Confusion Matrix – Best Model](./result-best-model/confusion_matrix_best-model.png)
 
 ---
 
